@@ -1,5 +1,6 @@
 # 내 풀이
 # isalnum, lower 참고
+
 def isPalindrome(self, s:str) -> bool:
 
     # 영어와 숫자만 입력
