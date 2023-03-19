@@ -12,7 +12,7 @@ banned = ["hit"]
 
 def mostCommonWord(self, paragraph: str, banned: list[str]) -> str:
     paragraph = paragraph.lower()
-    paragraph = re.sub(r'[^1-9a-z\s]', '', paragraph)
+    paragraph = re.sub(r'[^1-9a-z\s]', ' ', paragraph)
     paragraph = paragraph.split()
     paragraph1 = []
     for i in range(len(paragraph)):
