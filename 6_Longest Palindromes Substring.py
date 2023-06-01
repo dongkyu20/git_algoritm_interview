@@ -37,7 +37,7 @@ if result == []:
 
 print(''.join(result))
 
-#교재 풀이
+# 교재 풀이
 
 def expand(left: int, right: int) -> str:
     while left >= 0 and right < len(s) and s[left] == s[right]:
@@ -45,7 +45,7 @@ def expand(left: int, right: int) -> str:
         right += 1
     return s[left + 1:right]
 
-##예외 리턴
+## 예외 리턴
 if len(s) < 2 or s == s[::-1]:
     return s
 result = ''
